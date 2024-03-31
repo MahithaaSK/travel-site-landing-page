@@ -1,0 +1,213 @@
+*{
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 75px;;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: beige;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0px 20px;
+}
+a,button{
+    font-size: 16px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: rgba(0,0,0,0.2);
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+nav li a:hover{
+    color: chartreuse;
+
+}
+header button a:hover{
+    color: blue;
+}
+
+.intro h1{
+    text-align: center;
+    color: beige;
+}
+ .split-container {
+    display: flex;
+    height: 65vh;
+  }
+  .split-left, .split-right {
+    flex: 1;
+    padding: 20px;
+  }
+  .split-left {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  .split-left h2{
+    font-size: xx-large;
+
+  }
+  .split-left p{
+    font-size:larger;
+  }
+  .split-right {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  .split-right h2 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: beige;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: beige;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+.intro p{
+    text-align: center;
+    font-size: x-large;
+    color: beige;
+}
+
+#hai{
+    color: beige;
+    font-size: x-large;
+}
+
+h1{
+    text-align: center;
+}
+.image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-container {
+    position: relative;
+    flex: 0 0 calc(50% - 10px); 
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+  }
+  
+  .image-container:hover .text-overlay {
+    opacity: 1;
+  }
+.text-overlay a:hover{
+    font-size: x-large;
+    color: aquamarine;
+  }
+  
+  .text-overlay h2,
+  .text-overlay p {
+    margin: 0;
+  }
+  .about h2{
+    color:blanchedalmond;
+  }
+  .about h3{
+    color:aliceblue;
+  }
+  .about p{
+    color: beige;
+  }
+  .about a:hover{
+    color: #007bff;
+    font-size:larger;
+  }
+  .Book h2{
+    color:blanchedalmond;
+  }
+  .Book h3{
+    color:aliceblue;
+  }
+  .Book p{
+    color: beige;
+  }
+  .Book a:hover{
+    color: #007bff;
+    font-size: larger;
+  }
+  .Contact h2{
+    color:blanchedalmond;
+  }
+  .Contact a{
+    color:aliceblue;
+  }
+  .Contact a:hover{
+    color: #007bff;
+    font-size: larger;
+  }
+  .Contact address{
+    color: beige;
+  }
+  
+  
